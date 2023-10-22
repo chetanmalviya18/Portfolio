@@ -1,0 +1,85 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #6594eb, #81c0db);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 199, 231);
+    width: 100%;
+    height: 700px;
+    
+}
+.name h1{
+    font-family: 'Playfair Display', serif;
+    color: #174f8a;
+    font-size: 100px;
+}
+.name h2{
+    font-family: 'Playfair Display', serif;
+    color: #174f8a;
+    font-size: 50px;
+    text-align: center;
+}
+.head .container{
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+}
+a.nav-link{
+  color: #174f8a;
+  font-weight: bold;
+}
+a.nav-link:hover{
+  color: #fff;
+}
+.chetan{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.love{
+  color: #174f8a;
+}
+.get{
+  color: rgb(27, 110, 148);
+}
+a.btn{
+  background-color: #174f8a;
+  padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: transparent solid 2px;
+    border-radius: 50px;
+}
+a.btn:hover{
+  background-color: #00bfff;
+}
+@media only screen and (max-width : 200px) {
+  .nav {
+float:left;
+  }
+}
